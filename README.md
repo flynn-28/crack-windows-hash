@@ -6,4 +6,6 @@
 5. run ```impacket-secretsdump -sam sam.save -system system.save LOCAL```
 6. copy the hash from the user you want
 7. save the hash into a file name ```hash.txt``` *IF YOU NAME THE FILE ANYTHING ELSE THE AUTOMATED CRACKING SCRIPT WILL NOT WORK*
-8. 
+8. run ```wget https://raw.githubusercontent.com/flynn-28/save-windows-hashes/main/automate-hash-crack.sh``` in terminal
+9. after file is finished downloading run ```bash ./automate-hash-crack.sh```
+10. answer the questions in the file and your hash will be cracked if possible

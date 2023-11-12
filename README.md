@@ -1,2 +1,2 @@
 # save-windows-hashes
-Save the password hashes from a windows device and copy them to a usb drive
+Run this script as an administrator on a Windows device. This can be done by right-clicking on the file and choosing "Run as Administrator".
